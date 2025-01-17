@@ -39,7 +39,7 @@ class Sedan implements VehiculoTierra {
         return "Conduce al vehículo: " + nombre;
     }
     
-    String sonarClaxon() {
+    public String sonarClaxon() {
         return "Claxon sonando...";
     }
 
